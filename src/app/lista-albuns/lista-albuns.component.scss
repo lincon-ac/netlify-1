@@ -1,0 +1,95 @@
+:host {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    padding: 20px;
+    overflow: auto;
+
+    &::-webkit-scrollbar {
+        width: 0px;
+    }
+
+    h1 {
+        color: #ffffff;
+        background: #2e6fb8;
+        text-align: center;
+    }
+
+    .container {
+        border-radius: 20px;
+        border-radius: 34px;
+        background: linear-gradient(145deg, #2e6fb8, #2e6fb8);
+        padding: 20px;
+
+
+        form {
+            display: flex;
+            width: 100%;
+
+            label {
+                color: #ffffff;
+                font-size: .9rem;
+                font-weight: 500;
+                background: #2e6fb8;
+            }
+        }
+    }
+
+    table {
+        margin-top: 40px;
+        width: 100%;
+        text-align: left;
+
+        th {
+            color: #000000;
+            font-size: .7rem;
+        }
+
+        th,
+        td {
+            padding: 6px 0px;
+            border-top: 1px solid;
+        }
+
+        span {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+}
+
+.mat-column-id {
+    max-width: 40px;
+    padding-right: 4px;
+
+}
+
+.mat-column-url {
+    max-width: 90px;
+
+}
+
+.container-form {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-item {
+    flex-grow: 1;
+    margin-bottom: 10px;
+}
+
+.button-item {
+    flex-shrink: 0;
+}
+
+.flex-item input {
+    width: 80%;
+    margin-left: 8px;
+}
+
+.imagem {
+    max-width: 75px;
+    height: auto;
+}
